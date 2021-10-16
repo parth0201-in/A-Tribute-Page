@@ -1,9 +1,11 @@
 html{
+    /*General font Size for most html Pages*/
     font-size:10px;
-    /* Font size taken through the Html Page inspection.*/
   }
+  /*Body element containg some basic info for the html Page*/
   body{
-    /* Color, Font-Family, Line height, Font-size taken From the Html page inspection */
+
+    /*Declaring font-family,text-color,font-size and other text Specifications*/
     font-family:ariel, sans-serif;
     width:100%;
     height:100%;
@@ -12,6 +14,7 @@ html{
     line-height:1.5;
     font-size:1.6rem;
   }
+  /*Main element containing the Main content of the Page.*/
   #main{  
     margin:30px 8px;
     background:#eee;
@@ -21,6 +24,7 @@ html{
     margin-top:px;
     text-align:center;
   }
+  /*Div Holding the Image of the Person.*/
   #img-div{
     background:white;
     padding:50px;
@@ -32,19 +36,23 @@ html{
     display:block;
     margin:0 auto;
   }
+  /*Image Caption*/
   #img-caption{
     margin:15px 0 15px 0;
   }
+  /*Div element hoding info abut the Person..*/
   #tribute-info{
     display:block;
     max-width:550px;
     margin:0 auto;
   }
+  /*tribute-info heading*/
   #tribute-info > h3{
     text-align:center;
     padding-top:40px;
     margin-bottom:40px;
   }
+  /*Stlying the bullet points of the list.*/
   ul > li{
     line-height:1.6;
     margin-bottom:20px;
